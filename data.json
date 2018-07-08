@@ -5,12 +5,10 @@
   "text":"You are facing a cave entrance from which the smell of rotting cabbage comes, what do you do ?",
   "choices":[
     {
-      "id":1,
       "text":"scream and run away.",
       "link":2
     },
     {
-      "id":2,
       "text":"enter the cave.",
       "link": 3
     }
@@ -28,12 +26,10 @@
  "text":"There are two pathways, one to the right and one to the left which one do you choose ?",
  "choices":[
    {
-     "id":1,
      "text":"left.",
      "link":4
    },
    {
-     "id":2,
      "text":"right.",
      "link": 5
    }
@@ -45,12 +41,10 @@
  "text":"You find the sword and shield, there seems to be a trap around them. what do you do ?",
  "choices":[
    {
-     "id":1,
      "text":"Try and disarm the trap.",
      "link": 6
    },
    {
-     "id":2,
      "text":"Take the sword and shield without disarming the trap.",
      "link": 7
    }
@@ -67,7 +61,6 @@
  "text":"You disarm the trap and take the sword and shield",
  "choices":[
    {
-     "id":1,
      "text":"Take the sword and shield continue",
      "link": 8
    }
@@ -79,12 +72,10 @@
  "text":"A trap door opens and you fall down into another room. What do you do ?",
  "choices":[
    {
-     "id":1,
      "text":"Explore the room you have landed in",
      "link": 6
    },
    {
-     "id":2,
      "text":"Try to climb back up",
      "link": 7
    }
@@ -96,12 +87,10 @@
  "text":"",
  "choices":[
    {
-     "id":1,
      "text":"",
      "link": 6
    },
    {
-     "id":2,
      "text":"",
      "link": 7
    }
@@ -113,12 +102,10 @@
  "text":"",
  "choices":[
    {
-     "id":1,
      "text":"",
      "link": 6
    },
    {
-     "id":2,
      "text":"",
      "link": 7
    }
@@ -130,12 +117,10 @@
  "text":"",
  "choices":[
    {
-     "id":1,
      "text":"",
      "link": 6
    },
    {
-     "id":2,
      "text":"",
      "link": 7
    }
@@ -147,12 +132,10 @@
  "text":"",
  "choices":[
    {
-     "id":1,
      "text":"",
      "link": 6
    },
    {
-     "id":2,
      "text":"",
      "link": 7
    }

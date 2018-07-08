@@ -21,8 +21,8 @@ def doStep(step):
         click.echo(click.style('End of your journey goodbye.', fg='red'))
         quit()
 
-    for option in ad.choices(step):
-        click.echo(click.style('['+str(option['id'])+'] ' + option['text']))
+    for idx, option in enumerate(ad.choices(step)):
+        click.echo(click.style('['+str(idx+1)+'] ' + option['text']))
 
     choice = click.prompt('What do you want to do ?', type = int)
     doStep(ad.choices(step)[choice-1]['link'])

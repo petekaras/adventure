@@ -12,7 +12,6 @@ class Adventure(object):
     def title(self, step):
         return self.adventureMap[step].title
 
-
     def text(self, step):
         return self.adventureMap[step].text
 
