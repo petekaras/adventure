@@ -37,8 +37,8 @@
 },
 {
  "id":4,
- "title":"Armoury",
- "text":"You find the sword and shield, there seems to be a trap around them. what do you do ?",
+ "title":"Old armoury",
+ "text":"At the end of a short corridor lies a small room, dimly lit by a torch attached to the wall. In a pile of bones in the corner lie a sword and shield, howeveer there seems to be a trap around them. what do you do ?",
  "choices":[
    {
      "text":"Try and disarm the trap.",
@@ -62,7 +62,7 @@
  "choices":[
    {
      "text":"Take the sword and shield continue",
-     "link": 8
+     "link": 999
    }
  ]
 },
@@ -73,46 +73,76 @@
  "choices":[
    {
      "text":"Explore the room you have landed in",
-     "link": 6
+     "link": 8
    },
    {
      "text":"Try to climb back up",
-     "link": 7
+     "link": 11
    }
  ]
 },
 {
  "id":8,
- "title":"",
- "text":"",
+ "title":"Pit trap",
+ "text":"You explore the pit you have landed in. Its made of stone and about 3 metres deep. There seems to be no way out. Suddenly from the corner you hear a rustling sound. should you...",
  "choices":[
    {
-     "text":"",
-     "link": 6
+     "text":"Say, 'whose there ?'",
+     "link": 9
    },
    {
-     "text":"",
-     "link": 7
+     "text":"Run into the corner to attack whats hidden",
+     "link": 10
    }
  ]
 },
 {
  "id":9,
- "title":"",
- "text":"",
+ "title":"The old man",
+ "text":"From the dark corner emerges an old man, he looks scared but sees you are firendly and relaxes. you share some food with him and he gives you a magic healing potion, which you place in your backpack. The old man points to a concelaed exit. you thank him and open up the secret passage which leads you to a long tunnel. At the end is a door. do you...",
  "choices":[
    {
-     "text":"",
-     "link": 6
+     "text":"Knock on the door",
+     "link": 999
    },
    {
-     "text":"",
-     "link": 7
+     "text":"Bash done the door",
+     "link": 999
    }
  ]
 },
 {
  "id":10,
+ "title":"Scared man",
+ "text":"You scare an old man hiding in the corner. He refuses to speak to you now. After some time you give up and notice a concealed exit in the corner, which you take. At the end of a long passage is a door. do you...",
+ "choices":[
+   {
+     "text":"Knock on the door",
+     "link": 999
+   },
+   {
+     "text":"Bash done the door",
+     "link": 999
+   }
+ ]
+},
+{
+ "id":11,
+ "title":"Long climb",
+ "text":"It's a 3 meter climb out of the pit, its slippy and hard work. do you continue ?",
+ "choices":[
+   {
+     "text":"Continue to climb",
+     "link": 11
+   },
+   {
+     "text":"Give up",
+     "link": 8
+   }
+ ]
+},
+{
+ "id":12,
  "title":"",
  "text":"",
  "choices":[
@@ -127,7 +157,7 @@
  ]
 },
 {
- "id":11,
+ "id":13,
  "title":"",
  "text":"",
  "choices":[
@@ -140,5 +170,55 @@
      "link": 7
    }
  ]
+},
+{
+ "id":14,
+ "title":"",
+ "text":"",
+ "choices":[
+   {
+     "text":"",
+     "link": 6
+   },
+   {
+     "text":"",
+     "link": 7
+   }
+ ]
+},
+{
+ "id":15,
+ "title":"",
+ "text":"",
+ "choices":[
+   {
+     "text":"",
+     "link": 6
+   },
+   {
+     "text":"",
+     "link": 7
+   }
+ ]
+},
+{
+ "id":16,
+ "title":"",
+ "text":"",
+ "choices":[
+   {
+     "text":"",
+     "link": 6
+   },
+   {
+     "text":"",
+     "link": 7
+   }
+ ]
+},
+{
+ "id":999,
+ "title":"Not yet written",
+ "text":"Time to write some more of the story !!"
 }
 ]
