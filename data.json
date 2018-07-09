@@ -6,7 +6,7 @@
   "choices":[
     {
       "text":"scream and run away.",
-      "link":2
+      "link":12
     },
     {
       "text":"enter the cave.",
@@ -107,7 +107,7 @@
    },
    {
      "text":"Bash done the door",
-     "link": 999
+     "link": 12
    }
  ]
 },
@@ -143,16 +143,17 @@
 },
 {
  "id":12,
- "title":"",
- "text":"",
+ "title":"Goblin quiz",
+ "type":"quiz",
+ "text":"Siting in the room is a Goblin, he challenges you to a quiz. Fail and he will keep you prisone, forever.... succeed and he will reward you with your freedom. You must answer 3 correct answers, and you have 4 lives.",
  "choices":[
    {
-     "text":"",
-     "link": 6
+     "text":"You beat the goblin, continue on your adventure",
+     "link": 999
    },
    {
-     "text":"",
-     "link": 7
+     "text":"The goblin laughs an evil laugh....",
+     "link": 999
    }
  ]
 },

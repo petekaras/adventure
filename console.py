@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 import click
-import requests
 import json
 from adventure import Adventure
+import quiz
 
 @click.command()
 def hello(count, name):
@@ -13,7 +13,11 @@ def hello(count, name):
 
 def doStep(step):
     ad = Adventure('data.json')
+
     click.clear()
+    if ad.type(step) is not None:
+        quiz.run(ad.getStep(step))
+
     click.echo(click.style(ad.title(step), bold=True))
     click.echo(click.style(ad.text(step)))
 

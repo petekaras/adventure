@@ -15,6 +15,12 @@ class Adventure(object):
     def text(self, step):
         return self.adventureMap[step].text
 
+    def type(self, step):
+        return self.adventureMap[step].type
+
     def choices(self, step):
         if self.adventureMap[step].choices:
             return self.adventureMap[step].choices
+
+    def getStep(self, step):
+        return self.adventureMap[step]

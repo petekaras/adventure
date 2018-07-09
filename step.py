@@ -6,6 +6,12 @@ class Step(object):
     def __init__(self, data):
         self.title = data['title']
         self.text = data['text']
+
+        if 'type' in data:
+            self.type = data['type']
+        else:
+            self.type = None
+
         if 'choices' in data:
             self.choices = data['choices']
         else:
